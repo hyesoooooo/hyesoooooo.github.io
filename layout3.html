@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hyesuapple</title>
+    <link rel="stylesheet" href="css/main.css">
+    <!-- * fontawesome 링크로 가져오는 방법 1.CDN *
+            장점: 가벼움 / 단점: 불안정 -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> -->
+    <!--  * fontawesome 링크로 가져오는 방법 2.직접설치 * -->
+    <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
+
+</head>
+
+<body style="margin: 0;">
+
+    <nav>
+        <div class="flex-container">
+            <div class="flex-item" style="flex-grow: 2;">logo</div>
+            <div class="flex-item">products</div>
+            <div class="flex-item">services</div>
+        </div>
+    </nav>
+
+    <div class="main-background">
+        <div class="text-wrap">
+            <h4 class="main-title">Buy Our Apple!</h4>
+            <p class="body" style="padding: 0 8vw; margin: 1em 0 2em;">현대자동차는 첨단 로보틱스 기술이 집약된 신개념 모바일 로봇 플랫폼
+                모베드(MobED)에서 착안한 모베드 NFT 캐릭터와 일러스트 작가 ‘부원’의 토끼 캐릭터 ‘B.B.래빗’과의 협업 전시전 〈MobED와 B.B.래빗의 신비로운 여행(Infinite
+                Journey of MobED and B.B.Rabbit)〉을 현대 모터스튜디오 고양에서 1월 10일(화)부터 31일(화)까지 진행하였고, 이어서 HMG 드라이빙 익스피리언스 센터에서
+                3월 22일(수)부터 4월 16일(일)까지 진행한다.</p>
+            <div><a class="main-button" style="text-decoration: none;" target="_blank"
+                    href="https://www.coupang.com/vp/products/7429879295?itemId=19294543033&vendorItemId=85908605270&sourceType=srp_product_ads&clickEventId=5c7ec25c-f4c0-427f-9281-eebc80d7af5d&korePlacement=15&koreSubPlacement=1&q=%EC%82%AC%EA%B3%BC&itemsCount=36&searchId=c7748cf0b2dc4bda917bab1cc05a07df&rank=0&isAddedCart=">
+                    구매하기</a></div>
+        </div>
+    </div>
+
+    <div class="float-box">
+        <h4 class="sub-title" style="margin-bottom: .5em;">가정용 사과란?</h4>
+        <p class="pseudo body" style="color: #111;">가정용 사과는 마른 흠집, 모양, 색깔, 반점 등으로 상품성이 떨어져 정품 사과에서 탈락한 사과입니다. 정품사과와 비교했을 때 맛과
+            당도는 크게 차이가없기에 가정에서 저렴하게 맛있게 드실 수 있는 사과입니다.
+        </p>
+
+    </div>
+
+    <div class="form-background">
+        <div class="contact">
+            <form>
+                <div class="w-100">
+                    <h2>Contact Us</h2>
+                    <p class="input-tit">Your Email</p>
+                    <input class="form-input input-test" type="email">
+                </div>
+                <div class="w-50">
+                    <p class="input-tit">First Name</p>
+                    <input class="form-input" placeholder="First Name" type="text">
+                </div>
+                <div class="w-50">
+                    <p class="input-tit">Last Name</p>
+                    <input class="form-input input-test" placeholder="Last Name" type="text">
+                </div>
+                <div style="clear: both"></div>
+
+                <div class="w-100">
+                    <p class="input-tit">Message</p>
+                    <textarea class="form-input noresize" placeholder="Please enter your message."></textarea>
+                </div>
+
+                <div class="ct-btm">
+                    <div class="checkbox">
+                        <input id="sub" type="checkbox">
+                        <label class="label" for="sub">Subscribe</label>
+                    </div>
+                    <button class="btn-contact">Send</button>
+                </div>
+
+            </form>
+        </div>
+        </form>
+    </div>
+
+    <div class="cart-background">
+        <div class="cart-content">
+            <h2>Your Shopping Cart</h2>
+            <table class="cart-table">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Item</th>
+                        <th>Amount</th>
+                        <th>Price</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbod>
+                    <tr>
+                        <td><img src="img/apple1.jpeg" width="50px"></td>
+                        <td class="cell-default">[인정한과일] 인정가득 하루 한 사과</td>
+                        <td class="cell-default">1</td>
+                        <td class="cell-default">24,900원</td>
+                        <td class="cell-total">24,900원</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/apple2.jpeg" width="50px"></td>
+                        <td class="cell-default">[이슬마루] GAP 저탄소 2023년 햇 아오리사과</td>
+                        <td class="cell-default">1</td>
+                        <td class="cell-default">13,900원</td>
+                        <td class="cell-total">13,900원</td>
+                    </tr>
+                    <tr>
+                        <td colspan="5" style="text-align: right;" class="cell-total">38,800원</td>
+                    </tr>
+                    </tbody>
+            </table>
+            <div class="ct-btm">
+                <a href="#" class="custom-link">Edit your shopping cart</a>
+                <button class="btn btn_bg-coral">구매하기</button>
+            </div>
+            <div class="input-study">
+                <input type="file" class="input-file">
+                <input type="file" class="input-file2">
+                <input type="range">
+                <progress value="0.5"></progress>
+            </div>
+        </div>
+    </div>
+
+    <div class="test-responsive">
+        <div>
+            <i class="fa-solid fa-cart-shopping fa-2x"></i>
+            <h4>Fast Shopping</h4>
+            <p>We ship faster than other shops</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-earth-asia fa-2x"></i>
+            <h4>Good Service</h4>
+            <p>Expect a lifelong service</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-ticket fa-2x"></i>
+            <h4>Free Coupons</h4>
+            <p>With new welcome gifts</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-box fa-2x"></i>
+            <h4>New Products</h4>
+            <p>See monthly new products</p>
+        </div>
+    </div>
+    <div style="float: none; clear: both;"></div>
+
+
+
+    <div class="shop-bg">
+        <div class="shop-container">
+            <div class="shop-item">
+                <div style="position: relative; height: 100%;">
+                    <div class="overlay-wrap">
+                        <div class="overlay-black">
+                            <p>자연품애 달콤한 주스용 부사 사과 10kg 랜덤과, 10kg (랜덤과), 1박스</p>
+                            <h3>32,900원</h3>
+                        </div>
+                     </div>
+                    <img src="img/product1.jpg">
+                </div>
+            </div>
+            <div class="shop-item">
+                <img src="img/product2.jpg">
+            </div>
+            <div class="shop-item">
+                <img src="img/product3.jpg">
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
